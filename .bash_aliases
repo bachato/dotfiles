@@ -40,10 +40,12 @@ alias lz='eza -aghloF --icons --group-directories-first'
 
 
 ### SSH-AGENT ALIASES  ###
-alias sshr='sshk && ssha && sshg && sshl'
+alias sshaz='ssha && sshg && sshl && ssht'
+alias sshr='sshk && ssha && sshg && sshl && ssht'
 alias sshk='killall ssh-agent; eval `ssh-agent`'
 alias ssha='ssh-add ~/.ssh/ansible'
-alias sshg='ssh-add ~/.ssh/git'
+alias sshg='ssh-add ~/.ssh/github'
+alias ssht='ssh-add ~/.ssh/gitea'
 alias sshl='ssh-add ~/.ssh/home_lab'
 
 
