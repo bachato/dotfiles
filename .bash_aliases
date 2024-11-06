@@ -40,7 +40,7 @@ alias lz='eza -aghloF --icons --group-directories-first'
 
 
 ### SSH-AGENT ALIASES  ###
-alias sshaz='ssha && sshg && sshl && ssht'
+alias sshaz='eval `ssh-agent` && ssha && sshg && sshl && ssht'
 alias sshr='sshk && ssha && sshg && sshl && ssht'
 alias sshk='killall ssh-agent; eval `ssh-agent`'
 alias ssha='ssh-add ~/.ssh/ansible'
